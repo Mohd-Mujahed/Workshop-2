@@ -5,16 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUJAHED | Web Devloper</title>
+
+    <style>
+section{
+    margin: 20px 0;
+}
+        nav{
+            display: flex;
+        }
+        .div1{
+            display: flex;
+            text-align: right;
+            margin-left: auto;
+            
+        }
+
+        .div1 p{
+            margin: 10px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .name{
+            font-size: 28px;
+            font-weight: 400px;
+            margin: 0;
+        }
+        #intro{
+            display: flex;
+        }
+        #intro div   p{
+            font-size: 24px;
+        font-weight: 400;        }
+
+        #intro div h1{
+            font-size: 56px;
+        font-weight: 400;        }
+        #intro div button{
+            background-color: #46AEE8;
+            color: #fff;
+            border: 0;
+            border-radius: 10px;
+            padding:20px;
+            font-size: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
             <div>
-                <p>Mujahed</p>
+                <p class="name" >Mujahed</p>
 
             </div>
-            <div>
+            <div class="div1" >
 
                 <p> Work</p>
                 <p>Contact</p>
@@ -25,7 +73,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="intro" >
             <div>
                 <div>
                     <p>Hi my name is Mujahed and I am a</p>
@@ -35,7 +83,7 @@
                 </div>
                 <div>
                     <button>
-                        <p>Contact Me</p>
+                       Contact Me
                     </button>
                 </div>
             </div>
@@ -45,12 +93,12 @@
         </section>
              <img src="Images/MouseSimple.png" alt="" srcset="">
 
-        <section>
+        <section id="work" >
             <div>
                 <p>My Work</p>
                 <p>The projects I’ve worked on</p>
             </div>
-            <div>
+            <div class="grid" >
                 <div>
                     <img src="Images/img1.png" alt="">
                     <div>
